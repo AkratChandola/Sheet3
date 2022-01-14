@@ -5,7 +5,7 @@ int main()
 	// 1 2 3 6 9 18 27 54 .....
 	int i,n,k=0,m=1,sum=1,total=1;
 	cin>>n;
-	for(i=1;i<=n;i++)
+	for(i=0;i<n-1;i++)
 	{
 		if(m==3)
 		{
